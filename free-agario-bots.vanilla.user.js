@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Free Agar.io Bots (Vanilla Version)
-// @version      1.0.1
+// @version      1.0.4
 // @description  Free open source agar.io bots
 // @author       Nel
 // @grant        none
