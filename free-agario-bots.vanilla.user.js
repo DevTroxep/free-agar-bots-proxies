@@ -6,7 +6,7 @@
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // @match        *://agar.io/*
-// @connect      nelthe.dev
+// @connect      sonnybuchan.co.uk
 // ==/UserScript==
 
 const CLIENT_VERSION = '1.0.4'
@@ -478,7 +478,7 @@ WebSocket.prototype.send = function(buffer){
 
 GM_xmlhttpRequest({
     method: 'GET',
-    url: 'https://nelthe.dev/version.txt',
+    url: 'https://sonnybuchan.co.uk/version.txt',
     onload(res1){
         if(res1.responseText.split(';')[0].split('=')[1] === CLIENT_VERSION){
             new MutationObserver(mutations => {
