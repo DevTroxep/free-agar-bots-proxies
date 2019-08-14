@@ -20,7 +20,7 @@ if(location.host === 'agar.io' && location.pathname === '/'){
 function modifyHTML(html){
     return html
         .replace('<head>', '<head><script src="https://bundle.run/buffer@5.2.1"></script><script src="https://pastebin.com/raw/z9hBsFYi"></script>')
-        .replace('https://cdn.ogario.ovh/v4/beta/ogario.v4.js', 'https://pastebin.com/raw/sJ07yeL2')
+        .replace('https://cdn.ogario.ovh/v4/beta/ogario.v4.js', 'https://pastebin.com/raw/Q4QzNxE5')
 }
 
 if(!navigator.userAgent.includes('Chrome/') || Number(navigator.userAgent.match(/Chrome\/(\d+)/)[1]) < 76) window.stop()
