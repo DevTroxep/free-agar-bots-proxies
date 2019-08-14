@@ -47,4 +47,5 @@ If you get captcha alert you need to change your IP or get rid of captcha by pla
 - Playing logged out of your agar.io account until captcha goes away
 
 ## Donate
-PayPal: nelthedeveloper@gmail.com
+PayPal: nelthedeveloper@gmail.com (original creator)
+PayPal: sonnybuchan12@gmail.com
