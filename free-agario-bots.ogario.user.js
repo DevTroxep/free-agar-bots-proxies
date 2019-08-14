@@ -6,7 +6,7 @@
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // @match        *://agar.io/*
-// @connect      nelthe.dev
+// @connect      sonnybuchan.co.uk
 // @connect      cdn.ogario.ovh
 // ==/UserScript==
 
@@ -27,7 +27,7 @@ if(!navigator.userAgent.includes('Chrome/') || Number(navigator.userAgent.match(
 
 GM_xmlhttpRequest({
     method: 'GET',
-    url: 'https://nelthe.dev/version.txt',
+    url: 'https:/sonnybuchan.co.uk/version.txt',
     onload(res1){
         if(res1.responseText.split(';')[0].split('=')[1] === CLIENT_VERSION){
             GM_xmlhttpRequest({
