@@ -1,25 +1,28 @@
 const Writer = require('./writer')
 
+var ID = 1;
+
+
 module.exports = {
-    protocolVersion(version){
+    protocolVersion(version) {
         const writer = new Writer(5)
         writer.writeUint8(254)
         writer.writeUint32(version)
         return writer.buffer
     },
-    clientVersion(version){
+    clientVersion(version) {
         const writer = new Writer(5)
         writer.writeUint8(255)
         writer.writeUint32(version)
         return writer.buffer
     },
-    spawn(name){
+    spawn(name) {
         const writer = new Writer(2 + name.length)
         writer.writeUint8(0)
         writer.writeString(name)
         return writer.buffer
     },
-    move(x, y, key){
+    move(x, y, key) {
         const writer = new Writer(13)
         writer.writeUint8(16)
         writer.writeInt32(x)

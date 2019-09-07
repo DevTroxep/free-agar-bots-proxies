@@ -1,10 +1,17 @@
 {
-  "name": "free-agario-bots",
-  "version": "1.0.0",
-  "description": "Free open source agar.io bots",
-  "author": "Nel",
-  "dependencies": {
-    "murmurhash-js": "^1.0.0",
-    "ws": "^7.1.1"
-  }
+    "name": "free-agario-bots",
+    "version": "1.0.0",
+    "description": "Free open source agar.io bots",
+    "author": "Nel",
+    "dependencies": {
+        "colour": "^0.7.1",
+        "dns": "^0.2.2",
+        "express": "^4.17.1",
+        "https-proxy-agent": "^2.2.2",
+        "murmurhash-js": "^1.0.0",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4",
+        "ws": "^7.1.1",
+        "fs": "^0.0.1"
+    }
 }

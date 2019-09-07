@@ -6,6 +6,7 @@ Free open source agar.io bots
 ## Usage
 [Video tutorial for Windows](https://www.youtube.com/watch?v=TkihvNIpiTw)
 
+
 Windows
 -------
 1. Install [Node.js](https://nodejs.org)
@@ -13,7 +14,7 @@ Windows
 3. Download the bots files from this repository as a ZIP and extract them on a folder
 4. Run `install.bat` and wait for it to close by itself
 5. Run `server.bat` and leave it open
-6. Copy and paste the contents of either [`free-agario-bots.vanilla.user.js`](https://github.com/nelthedev/free-agario-bots/blob/master/free-agario-bots.vanilla.user.js) or [`free-agario-bots.ogario.user.js`](https://github.com/nelthedev/free-agario-bots/blob/master/free-agario-bots.ogario.user.js) into a new Tampermonkey userscript and save it
+6. Copy and paste the contents of either [`free-agario-bots.vanilla.user.js`](https://github.com/xN3BULA/free-agario-bots/raw/master/free-agario-bots.vanilla.user.js) or [`free-agario-bots.ogario.user.js`](https://github.com/xN3BULA/free-agario-bots/raw/master/free-agario-bots.ogario.user.js) into a new Tampermonkey userscript and save it
 7. Go to [agar.io](https://agar.io) with 1 of the 2 userscripts enabled and click "Connect" button, the status should say "Connected" in green
 8. Create party and make sure that you are logged in on your agar.io account then click "Start Bots" button, if your IP doesn't has captcha the button should turn red and say "Stop Bots" if you get an alert saying your IP has captcha scroll down to the part where i explain different ways to fix that
 9. To stop bots click the "Stop Bots" button and wait 30 seconds for the process to close you will see a countdown there
@@ -24,7 +25,7 @@ VPS
 -------
 1. I recommend using a Ubuntu 18.04 LTS from DigitalOcean. You can get one for $5/month and you can use this [link](https://m.do.co/c/fa7a805f6e60) to get $50 on the platform
 2. Run `sudo apt install git` command
-3. Run `git clone https://github.com/nelthedev/free-agario-bots.git` command
+3. Run `git clone https://github.com/xN3BULA/free-agario-bots.git` command
 4. Run `cd free-agario-bots` command
 5. Run `sudo chmod +x install.sh` command
 6. Run `sudo ./install.sh` command
