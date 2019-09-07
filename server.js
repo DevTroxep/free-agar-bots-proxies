@@ -1,3 +1,4 @@
+process.on('uncaughtException', console.error)
 const WebSocket = require('ws'),
     { murmur2 } = require('murmurhash-js'),
     buffers = require('./buffers'),
