@@ -74,7 +74,7 @@ const dataBot = {
             logger.good("Working " + IP)
         });
         this.ws.on('error', function() {
-            logger.error("Banned proxies " + IP);
+            logger.error("Banned proxies " + IP + " Please update proxies");
         });
         this.ws.onopen = this.onopen.bind(this);
         this.ws.onmessage = this.onmessage.bind(this);
@@ -166,7 +166,7 @@ class Bot {
             logger.good("Working " + IP)
         });
         this.ws.on('error', function() {
-            logger.error("Banned proxies " + IP);
+            logger.error("Banned proxies " + IP + " Please update proxies");
         });
         this.ws.onopen = this.onopen.bind(this);
         this.ws.onmessage = this.onmessage.bind(this);
