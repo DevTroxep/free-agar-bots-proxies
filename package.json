@@ -5,13 +5,11 @@
     "author": "Nel",
     "dependencies": {
         "colour": "^0.7.1",
-        "dns": "^0.2.2",
         "express": "^4.17.1",
-        "fs": "^0.0.1",
         "https-proxy-agent": "^2.2.2",
         "murmurhash-js": "^1.0.0",
         "request": "^2.88.0",
         "request-promise": "^4.2.4",
-        "ws": "^7.1.2"
+        "ws": "^7.1.1"
     }
 }
