@@ -2,7 +2,7 @@
 Use HTTP proxies from some sites...
 
 
-# free-agario-bots
+# Free-agario-bots
 Free open source agar.io bots
 
 [Join our Discord](https://discord.gg/SDMNEcJ)
